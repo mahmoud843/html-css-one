@@ -43,3 +43,4 @@ while True:
  #if input is N then the condition will be true and loop continues
     if(a=='N'):
         break
+          print("Thanks for playing my game friendo")
