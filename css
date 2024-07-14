@@ -75,13 +75,13 @@ img {
     justify-content: space-between;
 }
 
-.hero .text h2{
+.hero .context h2{
     font-size: 3rem;
     font-family: Mulish-Bold;
     max-width: 415px;
     margin-bottom: 1.5rem;
 }
-.hero .text p{
+.hero .context p{
     font-size: 1.31rem;
     color: rgba(125, 121, 135, 1);
     max-width: 75%;
@@ -113,19 +113,19 @@ header {
     background-position: left -20px top 260px,right 11% top 53%;
     margin-bottom: 10rem;
 }
-.our-services .text{
+.our-services .context{
     width: 60%;
     margin-inline: auto;
     margin-bottom: 56px;
 }
-.our-services .text h3 {
+.our-services .context h3 {
     font-size: 2.25rem;
     font-family: Mulish-Bold;
     text-align: center;
     position: relative;
     margin-bottom: 64px;
 }
-.our-services .text h3::after{
+.our-services .conext h3::after{
     content: '';
     display: block;
     border-style: hidden;
@@ -138,7 +138,7 @@ header {
     left: 50%;
     transform: translateX(-50%);
 }
-.our-services .text  p{
+.our-services .context  p{
     font-size: 1.125rem;
     color: rgba(125, 121, 135, 1);
     text-align: center;
@@ -200,21 +200,21 @@ header {
     position:relative;
 }
 
-.healthcare-prov .text{
+.healthcare-prov .context{
     width: 30%;
     margin-inline: auto;
     position: relative;
     top: 12px;
     
 }
-.healthcare-prov .text h2{
+.healthcare-prov .context h2{
     font-size: 2.25rem;
     font-family: Mulish-Bold;
     line-height: 3.5rem;
     position: relative;
     margin-bottom: 64px;
 }
-.healthcare-prov .text h2::after {
+.healthcare-prov .context h2::after {
     content: '';
     display: block;
     border-style: hidden;
@@ -225,7 +225,7 @@ header {
     border-radius: 5px;
     position: absolute;
 }
-.healthcare-prov .text p {
+.healthcare-prov .context p {
     font-size: 1.125rem;
     line-height: 1.875rem;
     color: rgba(125, 121, 135, 1);
@@ -243,13 +243,13 @@ header {
     background-position: top right 1%;
     padding-block: 20rem;
 }
-.download-our-apps .text {
+.download-our-apps .context {
     width: 30%;
 }
 .download-our-apps img{
     margin-inline-end: 10%;
 }
-.download-our-apps .text h2 {
+.download-our-apps .context h2 {
     font-size: 2.25rem;
     font-family: Mulish-Bold;
     line-height: 3rem;
@@ -257,7 +257,7 @@ header {
     position: relative;
     margin-bottom: 64px;
 }
-.download-our-apps .text h2::after {
+.download-our-apps .context h2::after {
     content: '';
     display: block;
     border-style: hidden;
@@ -268,13 +268,13 @@ header {
     border-radius: 5px;
     position: absolute;
 }
-.download-our-apps .text p {
+.download-our-apps .context p {
     font-size: 1.125rem;
     line-height: 1.875rem;
     color: rgba(125, 121, 135, 1);
     margin-bottom: 38px;
 }
-.download-our-apps .text .primary-button i{
+.download-our-apps .context .primary-button i{
     margin-inline-start: 0.5625rem;
 }
 .whole-testimonials{
@@ -353,7 +353,7 @@ header {
     color: rgba(255, 255, 255, 1);
     margin-bottom: 5px;
 }
-.blue-testimonials .founder .founder-text h6{
+.blue-testimonials .founder .founder-context h6{
     font-size: 1.125rem;
     font-family: Mulish-Regular;
     color: rgba(255, 255, 255, 0.85);
