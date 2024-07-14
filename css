@@ -20,7 +20,6 @@
     font-family: Mulish-Bold;
     src: url(../Fonts/Mulish-Bold.ttf);
 }
-/*general*/
 html {
     font-size: 16px;
     font-family: Mulish-Light;
@@ -399,7 +398,7 @@ header {
     position: relative;
     margin-bottom: 8rem;
 }
-.article:before{
+.article::before{
     content: '';
     position: absolute;
     width:100%;
@@ -451,7 +450,7 @@ header {
     margin-bottom: 8px;
 }
 .article .article-cards .a-card p {
-    line-height: 1.75rem;
+    line-height: 1.76rem;
     color: rgba(125, 121, 135, 1);
     max-width: 261px;
     margin-bottom: 20px;
@@ -480,7 +479,7 @@ footer {
     align-items: flex-start;
     position: relative;
 }
-footer:after {
+footer::after {
     content: url(../Images/elementfoot.svg);
     position: absolute;    
     left: 0;
@@ -520,8 +519,8 @@ footer:after {
     margin-bottom: 15px;
 }
 .logo .img-bg{
-    width: 42px;
-    height: 42px;
+    width: 41px;
+    height: 41px;
     border-radius: 50%;
     background-color: white;
     display: flex;
@@ -536,7 +535,7 @@ footer:after {
 .col-one p{
     font-size: 1.125rem;
     color: white;
-    line-height: 1.76rem;
+    line-height: 1.75rem;
     max-width: 380px;
     margin-bottom: 32px;
 }
